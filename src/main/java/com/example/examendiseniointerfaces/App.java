@@ -12,7 +12,8 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("cesurParking-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 900, 600);
-        stage.setTitle("Hello!");
+        stage.setResizable(false);
+        stage.setTitle("Ejercicio de Examen");
         stage.setScene(scene);
         stage.show();
     }
