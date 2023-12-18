@@ -1,0 +1,85 @@
+#vbGeneral {
+    -fx-background-color: #002858;
+}
+
+.etiqueta {
+    -fx-text-fill: #e0e0e0;
+    -fx-font-size: 14px;
+}
+
+.choice-box{
+    -fx-text-fill: black;
+}
+
+.button {
+    -fx-background-color: #005ea6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+}
+
+.button:hover {
+    -fx-background-color: #0076d1;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-text-fill: #002858;
+    -fx-border-color: #005ea6;
+    -fx-border-radius: 5px;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-text-fill: #002858;
+    -fx-border-color: #005ea6;
+    -fx-border-radius: 5px;
+}
+
+.date-picker {
+    -fx-background-color: white;
+    -fx-text-fill: #002858;
+    -fx-border-color: #005ea6;
+    -fx-border-radius: 5px;
+}
+
+.radio-button {
+    -fx-text-fill: #e0e0e0;
+}
+
+.table-view {
+    -fx-base: #005ea6;
+    -fx-control-inner-background: white;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: #005ea6;
+}
+
+.table-column {
+    -fx-border-color: #005ea6;
+}
+
+.table-cell {
+    -fx-text-fill: #002858;
+}
+
+#vbGneral {
+    -fx-background-color: #002858;
+}
+
+#lbParking {
+    -fx-text-fill:  #002858;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 5, 5);
+
+}
+#lbFooter{
+    -fx-text-fill: #2ac6dd;
+    -fx-font-size: 12px;
+    -fx-alignment: center;
+}
+#cbCliente{
+    -fx-text-fill: black;
+}
